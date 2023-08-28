@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stone water gun game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>Water gun snake game </h2>
+        <details>
+            <summary>
+                How to play?
+            </summary>
+            Choose among gun,snake or water and submit it. computer will also choose randomly, 1-snake beats the water 2-water beats the gun 3- gun beats the snake.
+        </details>
+    </nav>
+    
+    <div class="maincontainer">
+
+    <div id="user" class="cont">
+        <!-- <input type="text" placeholder="choose......"> -->
+        <select id="selected">
+            <option value="" selected>Choose</option>
+            <option value="gun">Gun</option>
+            <option value="snake">Snake</option>
+            <option value="water">water</option>
+        </select>
+        <div id="image">
+            <img id="usersideimage" src="" alt="Please choose your character">
+        </div>
+    </div>
+    <div id="computer" class="cont">
+        <h3>Computer</h3>
+        <div id="image2">
+            <img id="computersideimage" src="" alt="computer generated image">
+        </div>
+    </div>
+    <div>
+    <button id="buttonn">Submit</button>
+    <div id="output">
+        <h3>result</h3>
+        <div id="result"></div>
+    </div>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
